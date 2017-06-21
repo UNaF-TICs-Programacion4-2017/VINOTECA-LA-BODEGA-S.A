@@ -394,8 +394,8 @@ $(document).ready(function() {
 				<div class="col-md-3 col-sm-4">
 					
 							<p>LA BODEGA S.A<br>
-							2017 © All rights reserved.</p>
-                            <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Marketing Digital</a>
+							2017 © Todos los Derechos Reservados.</p>
+                            <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Programacion IV</a>
 						</div>
 						
 							</a>
