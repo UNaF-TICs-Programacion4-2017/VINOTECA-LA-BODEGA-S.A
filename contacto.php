@@ -395,7 +395,11 @@ $(document).ready(function() {
 				<div class="col-md-3 col-sm-4">
 					
 							<p>LA BODEGA S.A<br>
+<<<<<<< HEAD
 							2017 © All rights reserved.</p>
+=======
+							2017 © Todos los Derechos Reservados.</p>
+>>>>>>> 0643ce5e7d407cc2a04ec079157c181ca6cfaab4
                             <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Programacion IV</a>
 						</div>
 						
