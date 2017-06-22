@@ -1,0 +1,1 @@
+CREATE TABLE `VINOTECA`.`bodega` ( `id` INT NOT NULL AUTO_INCREMENT , `vinoteca_nombre` VARCHAR NOT NULL , `vinoteca_email` VARCHAR NOT NULL , `vinoteca_consulta` VARCHAR NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

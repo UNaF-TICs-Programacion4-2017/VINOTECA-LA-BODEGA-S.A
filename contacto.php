@@ -78,6 +78,7 @@
                         
              	<li>
 						<li><a href="productos.php" id="tienda">productos</a></li>
+                        <li><a href="login.php" id="tienda">LOGIN</a></li>
                         <div class="productos-menu despliega" style="display:none;">
                             <ul class="responsiveno">
                                 <h2>
@@ -318,19 +319,19 @@ $(document).ready(function() {
 				</div>
 			</div>
 			<div class="row">
-			   <form  id="formContacto" name="formContacto" method="post"  action="javascript: void(0);" data-parsley-validate>
+			   <form  id="formContacto" name="formContacto" method="post"  action="datosguardar.php" data-parsley-validate>
         
 					<div class="col-md-6">
 						<label>Nombre</label>
-						<input class="form-control input-lg" type="text" name="nombre" id="nombre" required  >					
+						<input type="text" type="text" name="vinoteca_nombre"  required  >					
 					</div>
 					<div class="col-md-6">
 						<label>E-mail</label>
-						<input class="form-control input-lg"  type="email" name="mail" id="mail" required  >					
+						<input type="text" type="text" name="vinoteca_email"  required  >					
 					</div>
 					<div class="col-md-12">
 						<label>Mensaje</label>
-						<textarea class="form-control input-lg" rows="12" name="mensaje" id="mensaje"  ></textarea>
+						<input type="text" type="text" name="vinoteca_consulta"  required  > 
 					</div>
 					<div class="col-md-12">
 						 <input type="submit" id="botonEnviar" value="Enviar" class="submit" />
@@ -349,7 +350,7 @@ $(document).ready(function() {
 			<div class="row">
 				<div class="col-sm-3">
 					<h1>Horarios</h1>
-					<p><a href="http://frappe.com.ar/sucursales/">Ver +</a></p>
+					<p><a href="sucursales/">Ver +</a></p>
 									</div>
 				<div class="col-sm-3">
 					<h1>Venta telefónica</h1>
@@ -395,7 +396,7 @@ $(document).ready(function() {
 					
 							<p>LA BODEGA S.A<br>
 							2017 © All rights reserved.</p>
-                            <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Marketing Digital</a>
+                            <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Programacion IV</a>
 						</div>
 						
 							</a>

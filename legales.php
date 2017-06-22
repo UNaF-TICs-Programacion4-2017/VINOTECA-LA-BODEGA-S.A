@@ -1,34 +1,27 @@
 <!DOCTYPE HTML>
 <html>
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
-	<link rel="stylesheet" href="css/layout.css">
     
-	
-	<script src="js/jquery.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="js/swiper.min.js" type="text/javascript"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    
+    
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/swiper.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/carrito.js"></script>
-    	
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700,900' rel='stylesheet' type='text/css'>
-	
-	<title>Productos Vinoteca || La BODEGA S.A</title>
-<meta name="title" content="Productos Vinoteca || LA BODEGA S.A">
-<meta name="description" content="Encontra Productos Vinoteca" />
-<meta name="keywords" content="vinoteca, frappe" /> 
-<META name="language" content="es">
-    <title>LA BODEGA S.A | Tienda</title>
+        
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700,900' rel='stylesheet' type='text/css'>
+    <title>La Bodega SA / Legales</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="robot" content="index, follow">
-    <script src="js/producto.js?v=1"></script>
 </head>
 
 <body>
@@ -43,19 +36,16 @@
   ga('send', 'pageview');
 
 </script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="http://frappe.com.ar/js/script.js"></script>
 <div class="container">
-	<header>
-		<div class="row" id="sticky">
-			<div class="container">
-			<div class="isologo">
+    <header>
+        <div class="row" id="sticky">
+            <div class="container">
+            <div class="isologo">
                 <a href="index.php">
                     <img src="img/logo.png">
                 </a>
-			</div>
-			<div class="menu">
-				
-				<div class="menu">
+            <div class="menu">
                 
                 <input type="checkbox" id="toogle" />
                 <label class="menubtn" for="toogle"><i class="fa fa-bars"></i></label>
@@ -64,7 +54,6 @@
                         
                 <li>
                         <li><a href="productos.php" id="tienda">productos</a></li>
-                        <li><a href="login.php" id="tienda">LOGIN</a></li>
                         <div class="productos-menu despliega" style="display:none;">
                             <ul class="responsiveno">
                                 <h2>
@@ -245,8 +234,7 @@
                 </menu>
             </div>
             
-			
-			<div class="tienda">
+            <div class="tienda">
                 <ul>
                                     <li>
                         <form class="search" id="search" name="search" action="tipo.php" method="get">
@@ -258,15 +246,15 @@
                 </ul>
             </div>
         </div>
-        
-		<div class="row">
-			<div class="col-md-12">
-				<a href="index.php" class="logo">
-					<img src="img/logo.png">
-				</a>
-			</div>		
-		</div>
-	</header>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="index.php" class="logo">
+                    <img src="img/logo.png">
+                </a>
+            </div>      
+        </div>
+    </header>
 </div>
 <script>
 $(document).ready(function() {
@@ -289,296 +277,56 @@ $(document).ready(function() {
     });
 });
 </script>
-	
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$('#tienda').addClass('active');
-	});
-	</script>
-	
-	<section class="breadcrumbs">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>Inicio</p>
-				</div>
-			</div>
-		</div>
-	</section>
-			
-	<section class="content tienda">
-		<div class="container">
-			<div class="row variedad">
-				<div class="col-md-12">
-					<h1>Vinos</h1>
-					<h3><a href="categoria.php?rubro=01&p=Vinos">ver más</a></h3>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-							<a href="detalle.php?id=1005911" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>CADUS VISTA FLORES CHARDONNAY</h1>
-					<p>$ 349.99</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-							<a href="detalle.php?id=1005876" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>ALAMBRADO SAUVIGNON BLANC</h1>
-					<p>$ 205.00</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-							<a href="detalle.php?id=1005870" class="detalle">Detalle</a>
-					<img src="img/productos/1005870.png">
-					<h1>GRAN ALAMBRADO BLEND</h1>
-					<p>$ 251.00</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-							<a href="detalle.php?id=1005843" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>MENDEL CABERNET SAUVIGNON</h1>
-					<p>$ 420.00</p>
-				</div>
-				
-				
-			</div>
-			
-			<div class="row variedad">
-				<div class="col-md-12">
-					<h1>Espumantes</h1>
-					<h3><a href="categoria.php?rubro=02&p=Espumantes">ver más</a></h3>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-								<a href="detalle.php?id=1005741" class="detalle">Detalle</a>
-					<img src="img/productos/1005741.png">
-					<h1>SPERONE PROSECCO BRUT </h1>
-					<p>$ 350.00</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-								<a href="detalle.php?id=1005646" class="detalle">Detalle</a>
-					<img src="img/productos/1005646.png">
-					<h1>LA PODEROSA EXTRA BRUT</h1>
-					<p>$ 170.00</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-								<a href="detalle.php?id=1005645" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>NIETO SENETINER BRUT ROSE</h1>
-					<p>$ 259.01</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-								<a href="detalle.php?id=1005625" class="detalle">Detalle</a>
-					<img src="img/productos/1005625.png">
-					<h1>FREIXENET ICE CUVÉE ESPECIAL</h1>
-					<p>$ 440.00</p>
-				</div>
-	
-			</div>
-			
-			<div class="row variedad">
-				<div class="col-md-12">
-					<h1>Espirituosas</h1>
-					<h3><a href="categoria.php?rubro=03&p=Espirituosas">ver más</a></h3>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005881" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>CHIVAS REGAL EXTRA+ 2 VASOS</h1>
-					<p>$ 1190.00</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005845" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>VODKA DANZKA</h1>
-					<p>$ 350.00</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005844" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>SIR EDWARD´S X700</h1>
-					<p>$ 240.00</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005832" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>BOTTEGA SAMBUCA BIANCA </h1>
-					<p>$ 540.00</p>
-				</div>
-	
-			</div>
-			
-			<div class="row variedad">
-				<div class="col-md-12">
-					<h1>Cervezas y Sidras</h1>
-					<h3><a href="categoria.php?rubro=04&p=Cervezas-Sidras">ver más</a></h3>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005732" class="detalle">Detalle</a>
-					<img src="img/productos/1005732.png">
-					<h1>PIRAAT TRIPLE HOP X330 ML</h1>
-					<p>$ 168.00</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005731" class="detalle">Detalle</a>
-					<img src="img/productos/1005731.png">
-					<h1>PIRAAT X330 ML</h1>
-					<p>$ 135.00</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005730" class="detalle">Detalle</a>
-					<img src="img/productos/1005730.png">
-					<h1>GULDEN DRAAK 9000 X330 ML</h1>
-					<p>$ 166.07</p>
-				</div>
-				
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005729" class="detalle">Detalle</a>
-					<img src="img/productos/1005729.png">
-					<h1>GULDEN DRAAK X330 ML</h1>
-					<p>$ 160.00</p>
-				</div>
-	
-			</div>
-			
-			<div class="row variedad">
-				<div class="col-md-12">
-					<h1>Accesorios</h1>
-					<h3><a  href="categoria.php?rubro=05&p=Accesorios">ver más</a></h3>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005879" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>SPIEGELAU VASO CERVEZA IPA x1</h1>
-					<p>$ 248.00</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005744" class="detalle">Detalle</a>
-					<img src="img/productos/1005744.png">
-					<h1>SPIEGELAU VASO GIN & TONIC 630 ML</h1>
-					<p>$ 220.00</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=112926" class="detalle">Detalle</a>
-					<img src="img/productos/112926.png">
-					<h1>SACACORCHO  2T NEGRO</h1>
-					<p>$ 60.00</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1004003" class="detalle">Detalle</a>
-					<img src="img/productos/1004003.png">
-					<h1>COPA WINELOVERS VINO BLANCO SPIEGELAU</h1>
-					<p>$ 169.99</p>
-				</div>
-	
-			</div>
-			
-			<div class="row variedad">
-				<div class="col-md-12">
-					<h1>Delicatessen</h1>
-					<h3><a  href="categoria.php?rubro=08&p=Delicatessen">ver más</a></h3>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005890" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>LINDT EXCELLENCE SEA SALT X100 GRS</h1>
-					<p>$ 99.00</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005633" class="detalle">Detalle</a>
-					<img src="img/productos/1005633.png">
-					<h1>THE BELGIAN CHOCOLATE AMARGO CON NARANJA X100 GRS</h1>
-					<p>$ 144.99</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005632" class="detalle">Detalle</a>
-					<img src="img/productos/1005632.png">
-					<h1>THE BELGIAN CHOCOLATE AMARGO 85% CACAO X100 GRS</h1>
-					<p>$ 144.99</p>
-				</div>
-			
-				<div class="producto col-md-3 col-xs-6">
-										<a href="detalle.php?id=1005616" class="detalle">Detalle</a>
-					<img src="img/productos/sinfoto.png">
-					<h1>DEL TURISTA BOMBONES SURTIDOS 80 GRS</h1>
-					<p>$ 75.00</p>
-				</div>
-	
-			</div>
-
-			<div class="row variedad">
-				<div class="col-md-12">
-					<h1>Cavas climatizadas</h1>
-					<h3><a  href="categoria.php?rubro=07&p=Cavas-Climatizadas">ver más</a></h3>
-				</div>
-	
-			</div>
-		</section>
-	</div>
-    <div class="container">
-	<footer>
-		<div class="servicios">
-			<div class="row">
-				<div class="col-sm-3">
-					<h1>Horarios</h1>
-					<p><a href="horario.php/">Ver +</a></p>
-									</div>
-				<div class="col-sm-3">
-					<h1>Venta telefónica</h1>
-					<p><a href="tel:3704641201">3704-641201</a></p>
-				</div>
-				<div class="col-sm-3">
-					<h1>Envío gratuito</h1>
-					<p>En FORMOSA, comprando <br> a través del call center.</p>
-				</div>
-				<div class="col-sm-3">
-					<h1>Preguntas Frecuentes</h1>
-					<p>Escribinos, estamos <br> para ayudarte.</p>
-				</div>
-			</div>
-		</div>
-		<div class="links">
-			<div class="row">			
-				<div class="col-sm-3 hidden-xs">
-					<h1>Tienda</h1>
-					<ul>
-						<li><a  href="categoria.php?rubro=01&p=Vinos">Vinos </a></li>
-						<li><a  href="categoria.php?rubro=02&p=Espumantes-Sidras">Espumantes y sidras </a></li>
-						<li><a  href="categoria.php?rubro=03&p=Espirituosas">Espirituosas </a></li>
-						<li><a  href="categoria.php?rubro=04&p=Cervezas">Cervezas </a></li>
-						<li><a  href="categoria.php?rubro=05&p=Accesorios">Accesorios </a></li>
-						<li><a  href="categoria.php?rubro=08&p=Delicatessen">Delicatessen </a></li>
-						<li><a  href="tipo.php?rubro=07&idt=071&n=Cavas Climatizadas">Cavas Climatizadas </a></li>
-					</ul>
-				</div>
-				<div class="col-sm-3 hidden-xs">
-					<h1>LA BODEGA S.A</h1>
-					<ul>
-						
-						<li><a href="contacto.php">Contacto</a></li>
-						<li><a href="legales.php">Legales</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 col-sm-2"></div>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#legales').addClass('active');
+    });
+    </script>
+            
+    <section class="content legales">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Legales</h1>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <h3>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS. </h3>
+                    <h3>2+1</h3>
+                <p>
+LA BODEGA S.A - SARFATI S.A. - ALUF S.A. - TIAN VINES S.R.L. / PROMOCIÓN VÁLIDA EN TODOS LOS LOCALES LA BODEGA S.A. LA PRESENTE PROMOCIÓN NO ES ACUMULABLE NI PUEDE SUPERPONERSE CON OTRAS PROMOCIONES VIGENTES. NO PARTICIPAN DE ESTA PROMOCIÓN PRODUCTOS DE BODEGAS CHANDON, TERRAZAS DE LOS ANDES, LATITUD 33, FAMILIA ARIZU, BODEGAS ESMERALDA Y RUTINI WINES.
+                </p>
+ 
+                   <br>
+  <br>
+  (*) Conforme Resolución 51E/2017 de la Secretaría de Comercio del Ministerio de Producción. No existe "interés oculto".
+</p>
+          
+                          <div class="links">
+            <div class="row">           
+                <div class="col-sm-3 hidden-xs">
+                    <h1>Tienda</h1>
+                    <ul>
+                        <li><a  href="categoria.php?rubro=01&p=Vinos">Vinos </a></li>
+                        <li><a  href="categoria.php?rubro=02&p=Espumantes-Sidras">Espumantes y sidras </a></li>
+                        <li><a  href="categoria.php?rubro=03&p=Espirituosas">Espirituosas </a></li>
+                        <li><a  href="categoria.php?rubro=04&p=Cervezas">Cervezas </a></li>
+                        <li><a  href="categoria.php?rubro=05&p=Accesorios">Accesorios </a></li>
+                        <li><a  href="categoria.php?rubro=08&p=Delicatessen">Delicatessen </a></li>
+                        <li><a  href="tipo.php?rubro=07&idt=071&n=Cavas Climatizadas">Cavas Climatizadas </a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 hidden-xs">
+                    <h1>LA BODEGA S.A</h1>
+                    <ul>
+                       
+                        <li><a href="contacto.php">Contacto</a></li>
+                        <li><a href="legales.php">Legales</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-2"></div>
                 <div class="col-md-3 col-sm-4">
                     
                             <p>LA BODEGA S.A<br>
@@ -586,12 +334,12 @@ $(document).ready(function() {
                             <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Programacion IV</a>
                         </div>
                         
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 
 </body>

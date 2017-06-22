@@ -87,103 +87,104 @@
                 <label class="menubtn" for="toogle"><i class="fa fa-bars"></i></label>
                 <menu>
 						<li><a href="productos.php" id="tienda">productos</a></li>
+                        <li><a href="login.php" id="tienda">LOGIN</a></li>
                         <div class="productos-menu despliega" style="display:none;">
                             <ul class="responsiveno">
                                 <h2>
-                                    <a href="http://frappe.com.ar/categoria.php?rubro=01&p=Vinos">
+                                    <a href="categoria.php?rubro=01&p=Vinos">
                                         Vinos
                                     </a>
                                 </h2>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=01&idt=011&n=Vinos Tintos">
+                                    <a href="tipo.php?rubro=01&idt=011&n=Vinos Tintos">
                                         Vinos Tintos
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=01&idt=012&n=Vinos%20Blancos">
+                                    <a href="tipo.php?rubro=01&idt=012&n=Vinos%20Blancos">
                                         Vinos Blancos
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=01&idt=014&n=Vinos%20Dulces">
+                                    <a href="tipo.php?rubro=01&idt=014&n=Vinos%20Dulces">
                                         Vinos Dulces
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=01&idt=013&n=Vinos%20Rosados">
+                                    <a href="tipo.php?rubro=01&idt=013&n=Vinos%20Rosados">
                                         Vinos Rosados
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=01&idt=015&n=Estuches%20Especiales">
+                                    <a href="tipo.php?rubro=01&idt=015&n=Estuches%20Especiales">
                                         Estuches especiales
                                     </a>
                                 </li>
                                  <h2>
-                                    <a href="http://frappe.com.ar/categoria.php?rubro=08&p=Delicatessen">
+                                    <a href="categoria.php?rubro=08&p=Delicatessen">
                                         Delicatessen
                                     </a>            
                                     
                                 </h2>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=08&idt=081&n=Aceite%20de%20Oliva">
+                                    <a href="tipo.php?rubro=08&idt=081&n=Aceite%20de%20Oliva">
                                         Aceite de Oliva
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=08&idt=082&n=Chocolate">
+                                    <a href="tipo.php?rubro=08&idt=082&n=Chocolate">
                                         Chocolates
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=08&idt=083&n=Delicatesen%20Otros">
+                                    <a href="tipo.php?rubro=08&idt=083&n=Delicatesen%20Otros">
                                         Otros
                                     </a>
                                 </li>
                             </ul>
                             <ul class="responsiveno">
                                 <h2>
-                                    <a href="http://frappe.com.ar/categoria.php?rubro=02&p=Espumantes">
+                                    <a href="categoria.php?rubro=02&p=Espumantes">
                                         Espumantes
                                     </a>
                                 </h2>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=02&idt=022&n=Espumantes%20Importados">
+                                    <a href="tipo.php?rubro=02&idt=022&n=Espumantes%20Importados">
                                         Importados
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=02&idt=021&n=Espumantes%20Nacionales">
+                                    <a href="tipo.php?rubro=02&idt=021&n=Espumantes%20Nacionales">
                                         Nacionales
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=02&idt=051&n=Estucher%EF%BF%BDa">
+                                    <a href="tipo.php?rubro=02&idt=051&n=Estucher%EF%BF%BDa">
                                         Estucheria
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=02&idt=015&n=Estuches%20Especiales">
+                                    <a href="tipo.php?rubro=02&idt=015&n=Estuches%20Especiales">
                                         Estuches especiales
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=02&idt=031&n=Destilados">
+                                    <a href="tipo.php?rubro=02&idt=031&n=Destilados">
                                         Destilados
                                     </a>
                                 </li>
                                 <h2>                                    
-                                    <a href="http://frappe.com.ar/categoria.php?rubro=05&p=Accesorios">
+                                    <a href="categoria.php?rubro=05&p=Accesorios">
                                         Accesorios
                                     </a>
                                 </h2>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=05&idt=102&n=Accesorios%20para%20Vinos">
+                                    <a href="tipo.php?rubro=05&idt=102&n=Accesorios%20para%20Vinos">
                                         Para vinos
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=05&idt=053&n=Cristaler%EF%BF%BDa">
+                                    <a href="tipo.php?rubro=05&idt=053&n=Cristaler%EF%BF%BDa">
                                         Cristaleria
                                     </a>
                                 </li>
@@ -192,27 +193,27 @@
                             </ul>
                             <ul class="responsiveno">
                                 <h2>
-                                    <a href="http://frappe.com.ar/categoria.php?rubro=03&p=Espirituosas">
+                                    <a href="categoria.php?rubro=03&p=Espirituosas">
                                         Espirituosas
                                     </a>                                    
                                 </h2>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=03&idt=032&n=Aperitivos">
+                                    <a href="tipo.php?rubro=03&idt=032&n=Aperitivos">
                                         Aperitivos
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=03&idt=031&n=Destilados">
+                                    <a href="tipo.php?rubro=03&idt=031&n=Destilados">
                                         Destilados
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://frappe.com.ar/tipo.php?rubro=03&idt=033&n=Licores%20/%20Cremas">
+                                    <a href="tipo.php?rubro=03&idt=033&n=Licores%20/%20Cremas">
                                         Licores /Cremas
                                     </a>
                                 </li>
                                 <h2>
-                                    <a href="http://frappe.com.ar/categoria.php?rubro=04&p=Cervezas-Sidras">
+                                    <a href="categoria.php?rubro=04&p=Cervezas-Sidras">
                                         Cervezas y Sidras
                                     </a>                                       
                                 </h2>
@@ -222,7 +223,7 @@
                                     </a>
                                 </li>
                                 <h2>
-                                    <a href="http://frappe.com.ar/categoria.php?rubro=07&p=Cavas-Climatizadas">
+                                    <a href="categoria.php?rubro=07&p=Cavas-Climatizadas">
                                         Cavas Climatizadas
                                     </a> 
                                     
@@ -489,9 +490,7 @@ $(document).ready(function() {
 				<div class="col-sm-3 hidden-xs">
 					<h1>LA BODEGA S.A</h1>
 					<ul>
-						<li><a href="sucursales">Sucursales</a></li>
-						<li><a href="promociones">Promociones</a></li>
-						<!--<li><a href="catalogo">Catálogo</a></li>-->
+						
 						<li><a href="relax">Relax</a></li>
 						<li><a href="contacto.php">Contacto</a></li>
 						<li><a href="legales.php">Legales</a></li>
@@ -501,7 +500,7 @@ $(document).ready(function() {
                     
                             <p>LA BODEGA S.A<br>
                             2017 © All rights reserved.</p>
-                            <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Marketing Digital</a>
+                            <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Programacion IV</a>
                         </div>
 				
 				
