@@ -372,7 +372,7 @@ if (!isset($_POST['email'])) {
 			<div class="row">
 				<div class="col-sm-3">
 					<h1>Horarios</h1>
-					<p><a href="sucursales/">Ver +</a></p>
+					<p><a href="*">Ver +</a></p>
 									</div>
 				<div class="col-sm-3">
 					<h1>Venta telefónica</h1>

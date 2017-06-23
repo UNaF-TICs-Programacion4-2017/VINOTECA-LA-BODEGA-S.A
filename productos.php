@@ -540,7 +540,7 @@ $(document).ready(function() {
 			<div class="row">
 				<div class="col-sm-3">
 					<h1>Horarios</h1>
-					<p><a href="horario.php/">Ver +</a></p>
+					<p><a href="horario.php">Ver +</a></p>
 									</div>
 				<div class="col-sm-3">
 					<h1>Venta telefónica</h1>

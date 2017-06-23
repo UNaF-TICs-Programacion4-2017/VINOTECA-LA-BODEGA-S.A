@@ -458,7 +458,7 @@ $(document).ready(function() {
 			<div class="row">
 				<div class="col-sm-3">
 					<h1>Horarios</h1>
-					<p><a href="http://frappe.com.ar/sucursales/">Ver +</a></p>
+					<p><a href="">Ver +</a></p>
 									</div>
 				<div class="col-sm-3">
 					<h1>Venta telefónica</h1>
@@ -492,7 +492,7 @@ $(document).ready(function() {
 					<h1>LA BODEGA S.A</h1>
 					<ul>
 						
-						<li><a href="relax">Relax</a></li>
+						
 						<li><a href="contacto.php">Contacto</a></li>
 						<li><a href="legales.php">Legales</a></li>
 					</ul>
