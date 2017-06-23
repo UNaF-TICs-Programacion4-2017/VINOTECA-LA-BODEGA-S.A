@@ -438,9 +438,10 @@ $(document).ready(function() {
 					<h1>Registrate para recibir novedades</h1>
 					<h3>Informate de novedades, degustaciones, promociones,  y más en tu casilla.</h3>
 					 <form  id="formNews" name="formNews" method="post"  action="javascript: void(0);" data-parsley-validate>
-						<input class="form-control input-lg" placeholder="Tu e-mail"  type="email" name="mail" id="mail" required >
+						 <a href="login.php" class="btn btn-lg btn-success">INICIAR SESION</a>
+                         <a href="registro.php" class="btn btn-lg btn-success">REGISTRARME</a>
 					
-						<input type="submit" id="botonEnviar" value="Enviar" class="submit" />
+						
                         <span id="aguarde" style="display:none">Aguarde un instante...</span> 
 						
 					</form>
@@ -498,16 +499,11 @@ $(document).ready(function() {
                     <div class="col-md-3 col-sm-2"></div>
                 <div class="col-md-3 col-sm-4">
                     
-<<<<<<< HEAD
                             <p>LA BODEGA S.A<br>
                             2017 © All rights reserved.</p>
                             <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Programacion IV</a>
-=======
-                          <p>LA BODEGA S.A<br>
-                            2017 © Todos los Derechos Reservados.</p>
-                            <a href="http://web360.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web"> David Lerea- Programacion IV</a>
->>>>>>> 0643ce5e7d407cc2a04ec079157c181ca6cfaab4
                         </div>
+				
 				
 					
 						</div>

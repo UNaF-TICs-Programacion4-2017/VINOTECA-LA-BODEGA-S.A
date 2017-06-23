@@ -1,23 +1,26 @@
 <?php 
 include "conexion.php";
-include "contacto.php";
 
 
 
-$vinonombre= $_POST['vinoteca_nombre']; 
-$vinoemail= $_POST['vinoteca_email']; 
-$mensaje= $_POST['vinoteca_consulta'];
+
+$vinonombre= $_POST['registro_nombre']; 
+$fecha= $_POST['registro_fecha'];
+$edad= $_POST['registro_edad'];
+$vinoemail= $_POST['registro_email']; 
 
 
 
-$query= "INSERT INTO bodega (vinoteca_nombre,vinoteca_email,vinoteca_consulta) VALUES('$vinonombre','$vinoemail','$mensaje')";
+
+
+$query= "INSERT INTO registro (registro_nombre,registro_fecha,registro_edad,registro_email) VALUES('$vinonombre','$fecha','$edad','$vinoemail')";
 $resultado= $conexion->query($query); 
 if ($resultado) {
 	
-	header("location: contacto.php");
+	echo("No pudo Registrar");
 }
 else
-echo "</p>insercion fallida</p>";
+echo "</p>Registro Exitoso</p>";
 
 
 
@@ -25,3 +28,4 @@ echo "</p>insercion fallida</p>";
 
  ?>
 
+<a href="contacto.php" class="btn btn-lg btn-success">ATRAS..</a>

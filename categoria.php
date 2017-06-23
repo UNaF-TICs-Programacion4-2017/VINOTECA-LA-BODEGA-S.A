@@ -563,12 +563,12 @@ $(document).ready(function() {
 					<h1>Tienda</h1>
 					<ul>
 						<li><a  href="categoria.php?rubro=01&p=Vinos">Vinos </a></li>
-						<li><a  href="http://frappe.com.ar/categoria.php?rubro=02&p=Espumantes-Sidras">Espumantes y sidras </a></li>
-						<li><a  href="http://frappe.com.ar/categoria.php?rubro=03&p=Espirituosas">Espirituosas </a></li>
-						<li><a  href="http://frappe.com.ar/categoria.php?rubro=04&p=Cervezas">Cervezas </a></li>
-						<li><a  href="http://frappe.com.ar/categoria.php?rubro=05&p=Accesorios">Accesorios </a></li>
-						<li><a  href="http://frappe.com.ar/categoria.php?rubro=08&p=Delicatessen">Delicatessen </a></li>
-						<li><a  href="http://frappe.com.ar/tipo.php?rubro=07&idt=071&n=Cavas Climatizadas">Cavas Climatizadas </a></li>
+						<li><a  href="categoria.php?rubro=02&p=Espumantes-Sidras">Espumantes y sidras </a></li>
+						<li><a  href="categoria.php?rubro=03&p=Espirituosas">Espirituosas </a></li>
+						<li><a  href="categoria.php?rubro=04&p=Cervezas">Cervezas </a></li>
+						<li><a  href="categoria.php?rubro=05&p=Accesorios">Accesorios </a></li>
+						<li><a  href="categoria.php?rubro=08&p=Delicatessen">Delicatessen </a></li>
+						<li><a  href="tipo.php?rubro=07&idt=071&n=Cavas Climatizadas">Cavas Climatizadas </a></li>
 					</ul>
 				</div>
 				<div class="col-sm-3 hidden-xs">
