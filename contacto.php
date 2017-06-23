@@ -275,7 +275,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<a href="http://frappe.com.ar" class="logo">
+				<a href="index.php" class="logo">
 					<img src="img/logo.png">
 				</a>
 			</div>		
