@@ -1,0 +1,1 @@
+CREATE TABLE `vinoteca`.`login` ( `id` INT NOT NULL AUTO_INCREMENT , `login_nombre` VARCHAR(50) NOT NULL , `login_apellidos` VARCHAR(50) NOT NULL , `login_correo` VARCHAR(50) NOT NULL , `login_password` VARCHAR(50) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
