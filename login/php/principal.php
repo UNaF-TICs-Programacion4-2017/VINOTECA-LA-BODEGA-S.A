@@ -1,7 +1,8 @@
 <?php
-require_once("myDBC.php");
-if(isset($_SESSION['session']))
-{
+session_start();
+if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
+	header('Location:login.php');
+}
 ?>
 <!DOCTYPE html>
 <head>
@@ -15,10 +16,3 @@ if(isset($_SESSION['session']))
 	<a href="salir.php"><h4>CERRAR SESSION</h4></a>
 </body>
 </html>
-<?php
-}else
-echo'<script type="text/javascript">
-	  alert("Registrarse para ver este contenido");
-	  window.location="http://localhost/login/index.php"
-</script>';
-?>

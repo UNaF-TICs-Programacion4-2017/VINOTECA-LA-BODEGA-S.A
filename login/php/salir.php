@@ -1,5 +1,8 @@
 <?php
-require_once("myDBC.php");
+/*
+Destruimos la session
+*/
+session_start();
 session_destroy();
-header("Location: http://localhost/login/index.php");
+header('Location:login.php?estado=finalizada');
 ?>
