@@ -388,7 +388,7 @@ $(document).ready(function() {
 					<h1>Registrate para recibir novedades</h1>
 					<h3>Informate de novedades, degustaciones, promociones,  y más en tu casilla.</h3>
 					 <form  id="formNews" name="formNews" method="post"  action="javascript: void(0);" data-parsley-validate>
-						 <a href="login.php" class="btn btn-lg btn-success">INICIAR SESION</a>
+						 <a href="login/php/login.php" class="btn btn-lg btn-success">INICIAR SESION</a>
                          <a href="registro.php" class="btn btn-lg btn-success">REGISTRARME</a>
 					
 						
