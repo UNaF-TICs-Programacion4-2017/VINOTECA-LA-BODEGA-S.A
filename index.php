@@ -292,7 +292,7 @@
 			</div>
 		</div>
 		</div>
-		<div class="row">
+		<div class="row" style="width:250px;margin:0 auto;">
 			<div class="col-md-12">
 				<a href="index.php" class="logo">
 					<img src="img/logo.png">
@@ -324,111 +324,67 @@ $(document).ready(function() {
 </script>
 	
 	</div>
-		<section class="hero">
-		<div class="container">
-			<div class="row">
-			
-<!--<div class="swiper-slide">
-			<div class="text">
-                <h2>Nuevo</h2>
-				<h1>Gran Linaje</h1>
-				<p>Texto descriptivo</p>
-			</div>
-			<img src="img/swiper/01.jpg">
-		</div>-->
+		<section class="hero"  style="margin:0 auto;width:1200px;">
 
-	
-		
-        
-	</div>
+			    <div id="categoriasVinos" class="row">
 
-	   <div class="swiper-pagination swiper-pagination-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
-        <div class="swiper-button-prev swiper-button-white"></div>
-
-	<script>
-		var mySwiper = new Swiper('.swiper-container',{
-			autoplay: 5000,
-			keyboardControl: true,
-		    pagination: '.swiper-pagination',
-            paginationClickable: true,
-            resizeEvent: 'resize' ,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev'		
-		})
-	</script>
-    <script>
-        $(document).ready(function(){
-                    $(".swiper-container").height(($('.swiper-container').width()/1170)*430);
-                $(window).resize(function(){
-                    //$(".swiper-container").height($(".swiper-container .img-responsive2").height());
-                    $(".swiper-container").height(($('.swiper-container').width()/1170)*430);
-                })
-        
-			});
-    </script>
-</div>	
-			
-					<!--tipos de bebidas	-->
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <a class="banner" href="categoria.php?rubro=01&p=Vinos">
-                            <div class="text linea">
-                                <h1>Vinos</h1>
-                            </div>
-                            <img src="img/banner/vinos.jpg">
-                        </a>        
-                            <a class="banner black"  href="categoria.php?rubro=03&p=Espirituosas">
-                            <div class="text linea">
-                                <h1>Espirituosas</h1>
-                            </div>
-                            <img src="img/banner/espirituosas.jpg">
-                        </a>    
-
-
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<a class="banner"  href="categoria.php?rubro=04&p=Cervezas">
-							<div class="text linea">
-								<h1>Cervezas</h1>
-							</div>
-							<img src="img/banner/cervezas.jpg">
-						</a>
-						
-						<a class="banner"  href="categoria.php?rubro=08&p=Delicatessen">
-							<div class="text linea">
-								<h1>Delicatessen</h1>
-							</div>
-							<img src="img/banner/delicatessen.jpg">
-						</a>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<a class="banner"  href="categoria.php?rubro=02&p=Espumantes-Sidras">
-							<div class="text">
-								<h1>Espumantes  y Sidras</h1>
-							</div>
-							<img src="img/banner/espumantes.jpg">
-						</a>
-							
-					
-						
-						<a class="banner" href="categoria.php?rubro=05&p=Accesorios">
-							<div class="text">
-								<h1>Cavas y Accesorios</h1>
-							</div>
-							<img src="img/banner/accesorios.jpg">
-						</a>
-						
-						<!--<a class="banner black long" href="catalogo">
-							<div class="text">
-								<h1>Catálogo 2015</h1>
-								<p>MIRAR ONLINE</p>
-							</div>
-							<img src="img/banner/catalogo.jpg">
-						</a>-->
-					</div>
+                        <div class="col-md-4" >
+                            <a class="banner" href="categoria.php?rubro=01&p=Vinos">
+                                <div class="text linea">
+                                    <h1>Vinos</h1>
+                                </div>
+                                <img src="img/banner/vinos.jpg">
+                            </a>        
+                                <a class="banner black"  href="categoria.php?rubro=03&p=Espirituosas">
+                                <div class="text linea">
+                                    <h1>Espirituosas</h1>
+                                </div>
+                                <img src="img/banner/espirituosas.jpg">
+                            </a>    
+                        </div>
+                        <div class="col-md-4">
+                            <a class="banner"  href="categoria.php?rubro=04&p=Cervezas">
+                                <div class="text linea">
+                                    <h1>Cervezas</h1>
+                                </div>
+                                <img src="img/banner/cervezas.jpg">
+                            </a>
+                            
+                            <a class="banner"  href="categoria.php?rubro=08&p=Delicatessen">
+                                <div class="text linea">
+                                    <h1>Delicatessen</h1>
+                                </div>
+                                <img src="img/banner/delicatessen.jpg">
+                            </a>
+                        </div>
+                        <div class="col-md-4 ">
+                            <a class="banner"  href="categoria.php?rubro=02&p=Espumantes-Sidras">
+                                <div class="text">
+                                    <h1>Espumantes  y Sidras</h1>
+                                </div>
+                                <img src="img/banner/espumantes.jpg">
+                            </a>
+                                
+                        
+                            
+                            <a class="banner" href="categoria.php?rubro=05&p=Accesorios">
+                                <div class="text">
+                                    <h1>Cavas y Accesorios</h1>
+                                </div>
+                                <img src="img/banner/accesorios.jpg">
+                            </a>
+                            
+                            <!--<a class="banner black long" href="catalogo">
+                                <div class="text">
+                                    <h1>Catálogo 2015</h1>
+                                    <p>MIRAR ONLINE</p>
+                                </div>
+                                <img src="img/banner/catalogo.jpg">
+                            </a>-->
+                        </div>
 				</div>
 			</div>
-		</div>
+		
 	</section>
 	
 	<section class="content registro">
@@ -513,6 +469,26 @@ $(document).ready(function() {
 		</div>
 	</footer>
 </div>
-
+<script>
+		var mySwiper = new Swiper('.swiper-container',{
+			autoplay: 5000,
+			keyboardControl: true,
+		    pagination: '.swiper-pagination',
+            paginationClickable: true,
+            resizeEvent: 'resize' ,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev'		
+		})
+	</script>
+    <script>
+        $(document).ready(function(){
+                    $(".swiper-container").height(($('.swiper-container').width()/1170)*430);
+                $(window).resize(function(){
+                    //$(".swiper-container").height($(".swiper-container .img-responsive2").height());
+                    $(".swiper-container").height(($('.swiper-container').width()/1170)*430);
+                })
+        
+			});
+    </script>
 </body>
 </html>
