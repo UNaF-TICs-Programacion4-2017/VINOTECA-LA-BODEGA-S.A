@@ -78,7 +78,7 @@
                         
              	<li>
 						<li><a href="productos.php" id="tienda">productos</a></li>
-                        <li><a href="login.php" id="tienda">LOGIN</a></li>
+                        <li><a href="login.php" id="tienda">Ingresar</a></li>
                         <div class="productos-menu despliega" style="display:none;">
                             <ul class="responsiveno">
                                 <h2>
@@ -319,47 +319,58 @@ $(document).ready(function() {
 				</div>
 			</div>
 			<div class="row">
-			   <?php
-if (!isset($_POST['email'])) {
-?>
-  <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
-    <label>
-      Nombre:
-      <input name="nombre" type="text" />
-    </label>
-    <label>
-      Teléfono:
-      <input name="telefono" type="text" />
-    </label>
-    <label>
-      Email:
-      <input name="email" type="text" />
-    </label>
-    <label>
-      Mensaje:
-      <textarea name="mensaje" rows="6" cols="50"></textarea>
-    </label>
-    <input type="reset" value="Borrar" />
-    <input type="submit" value="Enviar" />
-  </form>
-<?php
-}else{
-  $mensaje="Mensaje del formulario de contacto de LABODEGA.com";
-  $mensaje.= "\nNombre: ". $_POST['nombre'];
-  $mensaje.= "\nEmail: ".$_POST['email'];
-  $mensaje.= "\nTelefono: ". $_POST['telefono'];
-  $mensaje.= "\nMensaje: \n".$_POST['mensaje'];
-  $destino= "davidalejandrolerea@gmail.com";
-  $remitente = $_POST['email'];
-  $asunto = "Mensaje enviado por: ".$_POST['nombre'];
-  mail($destino,$asunto,$mensaje,"FROM: $remitente");
-?>
-  <p><strong>Mensaje enviado.</strong></p>
-<?php
-}
-?>
 
-					</div>
+<form name="contactform" method="post" action="email.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <label for="first_name">Nombre *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="last_name">Apellido *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">E-mail *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telefono</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="message">Mensaje *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Enviar">   <a href="http://www.tufelicidadvacacional.com.ve/email_form.php"></a>
+ </td>
+</tr>
+</table>
+</form>
+
+			</div>
 				</form>
 				   <h3 id="gracias-contact" style="display:none;"> Gracias por contactarse. Responderemos tu consulta a la brevedad. </h3>
            
@@ -418,7 +429,7 @@ if (!isset($_POST['email'])) {
 					
 							<p>LA BODEGA S.A<br>
 							2017 © All rights reserved.</p>
-                            <a href="davidlerea.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">DAVID LEREA - Programacion IV</a>
+                            
 						</div>
 						
 							</a>

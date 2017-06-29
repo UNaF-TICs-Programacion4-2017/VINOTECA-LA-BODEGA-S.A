@@ -42,7 +42,7 @@
   ga('send', 'pageview');
 
 </script>
-<script type="text/javascript" src="http://frappe.com.ar/js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 <div class="container">
 	<header>
 		<div class="row" id="sticky">
@@ -62,6 +62,7 @@
 						         
                 <li>
                         <li><a href="productos.php" id="tienda">productos</a></li>
+                         <li><a href="login.php" id="tienda">Ingresar</a></li>
                         <div class="productos-menu despliega" style="display:none;">
                             <ul class="responsiveno">
                                 <h2>
@@ -243,7 +244,7 @@
                 </menu>
             </div>
 					
-						<li><a href="contacto.php" id="contacto">contacto</a></li>
+						
 					</ul>
 				</menu>
 			</div>
@@ -536,70 +537,65 @@ $(document).ready(function() {
 		</section>
 	</div>
     <div class="container">
-	<footer>
-		<div class="servicios">
-			<div class="row">
-				<div class="col-sm-3">
-					<h1>Horarios</h1>
-					<p><a href="*">Ver +</a></p>
-									</div>
-				<div class="col-sm-3">
-					<h1>Venta telefónica</h1>
-					<p><a href="tel:3704641201">3704-641201</a></p>
-				</div>
-				<div class="col-sm-3">
-					<h1>Envío gratuito</h1>
-					<p>En Formosa, comprando <br> a través del call center.</p>
-				</div>
-				<div class="col-sm-3">
-					<h1>Preguntas</h1>
-					<p>Escribinos, estamos <br> para ayudarte.</p>
-				</div>
-			</div>
-		</div>
-		<div class="links">
-			<div class="row">			
-				<div class="col-sm-3 hidden-xs">
-					<h1>Tienda</h1>
-					<ul>
-						<li><a  href="categoria.php?rubro=01&p=Vinos">Vinos </a></li>
-						<li><a  href="categoria.php?rubro=02&p=Espumantes-Sidras">Espumantes y sidras </a></li>
-						<li><a  href="categoria.php?rubro=03&p=Espirituosas">Espirituosas </a></li>
-						<li><a  href="categoria.php?rubro=04&p=Cervezas">Cervezas </a></li>
-						<li><a  href="categoria.php?rubro=05&p=Accesorios">Accesorios </a></li>
-						<li><a  href="categoria.php?rubro=08&p=Delicatessen">Delicatessen </a></li>
-						<li><a  href="tipo.php?rubro=07&idt=071&n=Cavas Climatizadas">Cavas Climatizadas </a></li>
-					</ul>
-				</div>
-				<div class="col-sm-3 hidden-xs">
-					<h1>La Bodega S.A</h1>
-					<ul>
-						<li><a href="sucursales">Sucursales</a></li>
-						<li><a href="promociones">Promociones</a></li>
-						<!--<li><a href="http://frappe.com.ar/catalogo">Catálogo</a></li>-->
-						<li><a href="relax">Relax</a></li>
-						<li><a href="contacto.php">Contacto</a></li>
-						<li><a href="legales.php">Legales</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 col-sm-2"></div>
-				<div class="col-md-3 col-sm-4">
-					
-							<p>La Bodega S.A.<br>
-							2017 © Todos los Derechos Reservados.</p>
+    <footer>
+        <div class="servicios">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h1>Horarios</h1>
+                    <p><a href="">Ver +</a></p>
+                                    </div>
+                <div class="col-sm-3">
+                    <h1>Venta telefónica</h1>
+                    <p><a href="tel:3704641201">3704-641201</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <h1>Envío gratuito</h1>
+                    <p>En Formosa, comprando <br> a través del call center.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h1>Preguntas Frecuentes</h1>
+                    <p>Escribinos, estamos <br> para ayudarte.</p>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="row">           
+                <div class="col-sm-3 hidden-xs">
+                    <h1>Tienda</h1>
+                    <ul>
+                        <li><a  href="categoria.php?rubro=01&p=Vinos">Vinos </a></li>
+                        <li><a  href="categoria.php?rubro=02&p=Espumantes-Sidras">Espumantes y sidras </a></li>
+                        <li><a  href="categoria.php?rubro=03&p=Espirituosas">Espirituosas </a></li>
+                        <li><a  href="categoria.php?rubro=04&p=Cervezas">Cervezas </a></li>
+                        <li><a  href="categoria.php?rubro=05&p=Accesorios">Accesorios </a></li>
+                       
+                    </ul>
+                </div>
+                <div class="col-sm-3 hidden-xs">
+                    <h1>La Bodega S.A</h1>
+                    <ul>
+                        
+                        <li><a href="contacto.php">Contacto</a></li>
+                        <li><a href="legales.php">Legales</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-2"></div>
+                <div class="col-md-3 col-sm-4">
+                    
+                            <p>La Bodega S.A.<br>
+                            2017 © Todos los Derechos Reservados.</p>
                             <a href="http://web360.com/" target="_blank" class="link-web360" title="Agencia de Marketing Digital y Diseño web">
                             David Lerea - Programacion IV</a>
-						</div>
-						
-						
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+                        </div>
+                        
+                        
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
-
 </body>
 </html>

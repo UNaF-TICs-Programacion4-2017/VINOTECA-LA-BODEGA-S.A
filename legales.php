@@ -234,16 +234,8 @@
                 </menu>
             </div>
             
-            <div class="tienda">
-                <ul>
-                                    <li>
-                        <form class="search" id="search" name="search" action="tipo.php" method="get">
-                            <input type="search" class="span2 search-query" id="busca" name="busca">
-                            <img src="img/buscaricono.png" height="30" onclick="search.submit();">
-
-                        </form>
-                    </li>
-                </ul>
+            
+              
             </div>
         </div>
         </div>
@@ -293,6 +285,7 @@ $(document).ready(function() {
                 </div>
             </div>
             <div class="row">
+        
                 <h3>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS. </h3>
                     <h3>2+1</h3>
                 <p>

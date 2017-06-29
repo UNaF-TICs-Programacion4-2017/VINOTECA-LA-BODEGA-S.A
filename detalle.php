@@ -69,9 +69,10 @@ function changeQuantity(qty) {
 				<label class="menubtn" for="toogle"><i class="fa fa-bars"></i></label>
 				<menu>
 					<ul>
-							<li><a href="http://frappe.com.ar/nosotros.php" >nosotros</a></li>
+							
 						
 						<li><a href="productos.php" id="tienda">productos</a></li>
+                        <li><a href="login.php" >Ingresar</a></li>
                         <div class="productos-menu despliega" style="display:none;">
                             <ul class="responsiveno">
                                 <h2>

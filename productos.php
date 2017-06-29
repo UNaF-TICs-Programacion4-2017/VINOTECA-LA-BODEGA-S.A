@@ -64,7 +64,7 @@
                         
                 <li>
                         <li><a href="productos.php" id="tienda">productos</a></li>
-                        <li><a href="login.php" id="tienda">LOGIN</a></li>
+                        <li><a href="login.php" id="tienda">Ingresar</a></li>
                         <div class="productos-menu despliega" style="display:none;">
                             <ul class="responsiveno">
                                 <h2>
@@ -246,17 +246,7 @@
             </div>
             
 			
-			<div class="tienda">
-                <ul>
-                                    <li>
-                        <form class="search" id="search" name="search" action="tipo.php" method="get">
-                            <input type="search" class="span2 search-query" id="busca" name="busca">
-                            <img src="img/buscaricono.png" height="30" onclick="search.submit();">
-
-                        </form>
-                    </li>
-                </ul>
-            </div>
+			
         </div>
         
 		<div class="row">
